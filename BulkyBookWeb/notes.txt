@@ -1,0 +1,10 @@
+EntityFrameworkCore packages:
+For options.UseSqlServer method you must install Microsoft.EnttyFrameworkCore.SqlServer nuget package
+if you add migration or push to database you must install Microsoft.EntityFrameworkCore.Tools
+
+To enable runtime compilation for all environments in an existing project
+	install Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation package
+
+Notification with toastr (js)
+
+Note: All package version must same as .net core version
