@@ -7,3 +7,5 @@ BulkyBook.Models/bin
 BulkyBook.Models/obj
 BulkyBook.Utility/bin
 BulkyBook.Utility/obj
+BulkyBook.StripePayment/bin
+BulkyBook.StripePayment/obj

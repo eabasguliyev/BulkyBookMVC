@@ -132,7 +132,7 @@ namespace BulkyBookWeb.Areas.Identity.Pages.Account
             if (!(await _roleManager.RoleExistsAsync(SD.Role_Admin)))
             {
                 await _roleManager.CreateAsync(new IdentityRole(SD.Role_Admin));
-                await _roleManager.CreateAsync(new IdentityRole(SD.Role_Employeee));
+                await _roleManager.CreateAsync(new IdentityRole(SD.Role_Employee));
                 await _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Comp));
                 await _roleManager.CreateAsync(new IdentityRole(SD.Role_User_Indi));
             }
